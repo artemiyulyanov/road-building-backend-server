@@ -12,7 +12,7 @@ async def create_turnkey_asphalt_lead(data):
 
     payload = [
         {
-            "name": "Заявка с сайта",
+            "name": "Заявка на асфальт под ключ",
             "custom_fields_values": build_custom_fields(data.dict(), TURNKEY_ASPHALT_FIELD_MAP),
         }
     ]
